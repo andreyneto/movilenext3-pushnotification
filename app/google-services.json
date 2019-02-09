@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "372248294930",
+    "firebase_url": "https://movilenext3pushnotification.firebaseio.com",
+    "project_id": "movilenext3pushnotification",
+    "storage_bucket": "movilenext3pushnotification.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372248294930:android:c82b9d051400fd11",
+        "android_client_info": {
+          "package_name": "br.com.andreyneto.movilenext3pushnotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "372248294930-t91opgmmb5lg44skg13snvp4lhh847cd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.andreyneto.movilenext3pushnotification",
+            "certificate_hash": "e16f68e58902580f1535ff282b99bf6a7764264e"
+          }
+        },
+        {
+          "client_id": "372248294930-kkeb2q715vivjf7sou23tifq70gjeslj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMKDuxBZN2CQ5TfNqiJAm4Fsi1gnOjiLI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "372248294930-kkeb2q715vivjf7sou23tifq70gjeslj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
