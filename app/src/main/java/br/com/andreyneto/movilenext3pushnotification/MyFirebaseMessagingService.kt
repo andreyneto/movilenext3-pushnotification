@@ -18,14 +18,14 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
         Log.i(TAG, "Notification Message: $notification")
 
         notification?.let {
-            val title = it.title
-            val body = it.body
+            val title = it.title ?: ""
+            val body = it.body ?: ""
             val data = remoteMessage.data
             Log.i(TAG, "Notification Title: $title")
             Log.i(TAG, "Notification body: $body")
             Log.i(TAG, "Notification data: $data")
 
-            // Criar notificação
+            NotificationCreation.create(this, title, body)
         }
     }
 
